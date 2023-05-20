@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mdb@6.1.0/dist/mdb.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@6.1.0/css/mdb.min.css">
+
+
+  </head>
+  <body>
+
+              
+          <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <!-- Container wrapper -->
+          <div class="container-fluid">
+            <!-- Toggle button -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <!-- Navbar brand -->
+              <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
+                  height="15"
+                  alt="MDB Logo"
+                  loading="lazy"
+                />
+              </a>
+              <!-- Left links -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contactos.html">Contactos</a>
+                </li>
+              </ul>
+              <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+
+            <!-- Right elements -->
+            <div class="d-flex align-items-center">
+              <!-- Icon -->
+              <a class="text-reset me-3" href="carrito.html">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+
+              <!-- Notifications -->
+              <div class="dropdown">
+                <a
+                  class="text-reset me-3 dropdown-toggle hidden-arrow"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="fas fa-bell"></i>
+                  <span class="badge rounded-pill badge-notification bg-danger">1</span>
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+
+                </ul>
+              </div>
+              <!-- Avatar -->
+              <div class="dropdown">
+                <a
+                  class="dropdown-toggle d-flex align-items-center hidden-arrow"
+                  href="#"
+                  id="navbarDropdownMenuAvatar"
+                  role="button"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img
+                    src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                    class="rounded-circle"
+                    height="25"
+                    alt="Black and White Portrait of a Man"
+                    loading="lazy"
+                  />
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="navbarDropdownMenuAvatar"
+                >
+                  <li>
+                    <a class="dropdown-item" href="perfil.html">Registro</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="sesion.html">Salir</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Right elements -->
+          </div>
+          <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+    <!-- MDB -->
+
+
+<br><br><br><br><br>
+
+
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <form>
+              <h4 class="mb-4 text-center">Seleccione el método de pago:</h4>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="metodoPago" id="tarjetaCredito" value="tarjetaCredito" checked>
+                <label class="form-check-label" for="tarjetaCredito">
+                  Tarjeta de Crédito
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="metodoPago" id="tarjetaDebito" value="tarjetaDebito">
+                <label class="form-check-label" for="tarjetaDebito">
+                  Tarjeta de Débito
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="metodoPago" id="nequi" value="nequi">
+                <label class="form-check-label" for="nequi">
+                  Nequi
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="metodoPago" id="daviplata" value="daviplata">
+                <label class="form-check-label" for="daviplata">
+                  Daviplata
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="metodoPago" id="pse" value="pse">
+                <label class="form-check-label" for="pse">
+                  PSE
+                </label>
+              </div>
+              
+              <div class="text-center mt-4">
+                <button type="submit" class="btn btn-primary">Realizar Pago</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+   
+    
+<br><br><br><br>
+
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-white text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Conectate con nuestras redes sociales:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3 text-secondary"></i>Papeleria Udenar
+          </h6>
+          <p>
+            En esta página publicitaria podrás encontrar todo lo relacionado 
+            con papelería y decoración para fiestas, Jugueteria, promociones, 
+            combos y muchas cosas mas. 
+
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            PRODUCTOS Y SERVICIOS
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Papeleria</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Libreria</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Decoración</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Jugueteria</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <br>
+        <br>
+        <br>
+        <br>        
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            DIRECCION TIENDA FISICA
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Cra 6 # 194</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Barrio la floresta</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Frente a la Universidad de Nariño</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">CONTACTANOS</h6>
+          <p><i class="fas fa-home me-3 text-secondary"></i> Cra 6 # 194</p>
+          <p>
+            <i class="fas fa-envelope me-3 text-secondary"></i>
+            papeleriaudenar@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i> + 57 313 646 5306</p>
+          <p><i class="fas fa-print me-3 text-secondary"></i> + 57 313 646 5306</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    © 2023 Copyright:
+    <a class="text-reset fw-bold" href="https://papeleriaudenar.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+  </body>
+</html>
