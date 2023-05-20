@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/logopu.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+  </head>
+
+  <style>
+    body {
+      background-image: url(img/font.jpg);
+      background-size: large 800cm;
+    }
+  </style>
+
+  <body>
+
+       
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Toggle button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div style="background: rgb(158, 255, 171);" class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Navbar brand -->
+      <a style="background: rgb(158, 255, 171;" class="navbar-brand mt-2 mt-lg-0" href="#">
+        <img
+          src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
+          height="15"
+          alt="MDB Logo"
+          loading="lazy"
+        />
+      </a>
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactos.html">Contactos</a>
+        </li>
+      </ul>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+
+    <!-- Right elements -->
+    <div class="d-flex align-items-center">
+      <!-- Icon -->
+      <a class="text-reset me-3" href="carrito.html">
+        <i  class="fas fa-shopping-cart"> </i>
+      </a>
+
+      <!-- Notifications -->
+      <div class="dropdown">
+        <a
+          class="text-reset me-3 dropdown-toggle hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <i class="fas fa-bell"></i>
+          <span class="badge rounded-pill badge-notification bg-danger">1</span>
+        </a>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuLink"
+        >
+        </ul>
+      </div>
+      <!-- Avatar -->
+      <div class="dropdown">
+        <a
+          class="dropdown-toggle d-flex align-items-center hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuAvatar"
+          role="button"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <img
+            src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+            class="rounded-circle"
+            height="25"
+            alt="Black and White Portrait of a Man"
+            loading="lazy"
+          />
+        </a>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuAvatar"
+        >
+          <li>
+            <a class="dropdown-item" href="perfil.html">Registro</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="sesion.html">Salir</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Right elements -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+<br><br><br>
+
+
+<div class="container">
+  <div class="width="200px" height="300px" ">
+  <div class="col s12 m7">
+<!-- Carousel wrapper -->
+<div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+  <!-- Indicators -->
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+
+  <!-- Inner -->
+  <div class="carousel-inner">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <img src="img/fon6.jpg" width="200px" height="400px"  class="d-block w-100" alt="Sunset Over the City"/>
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <img src="img/fondo collage 1.jpg" width="200px" height="400px" class="d-block w-100" alt="Canyon at Nigh"/>
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <img src="img/fondo collage 2.jpg" width="200px" height="400px" class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
+      <div class="carousel-caption d-none d-md-block">      
+      </div>
+    </div>
+  </div>
+  <!-- Inner -->
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Carousel wrapper -->
+</div>
+</div>
+</div>
+
+<br><br><br>
+
+      <center><h2 style="color: rgb(8, 8, 8);">Nuestras categorías de productos</h2></center>
+    
+
+      <link rel="stylesheet" href="styles.css">
+      
+          <main>
+            <section>
+
+              <ul id="inicio" style="color: rgb(0, 0, 0);">
+                <li style="background: rgb(143, 236, 147);" >
+                  <img src="papeleria/elabora_proyec.png" alt="Producto 1">
+               
+                  <p>Encuentra todo para la elaboración de tus proyectos.</p>
+                  <a href="productos.html" class="boton">Comprar</a>
+                </li>
+                <li style="background: rgb(143, 236, 147);">
+                  <img src="papeleria/utiles.jpg" alt="Producto 2">
+             
+                  <p>Encuentra en esta seccion, todo lo relacionado con utiles escolares..</p>
+                  <a href="productos.html" class="boton">Comprar</a>
+                </li>
+                <li style="background: rgb(143, 236, 147);">
+                  <img src="papeleria/matematicas.jpg" alt="Producto 3">
+                 
+                  <p>Si eres matematico o necesitas herramientas de matematicas, encuentra aqui todo lo que necesitas..</p>
+                  <a href="productos.html" class="boton">Comprar</a>
+                </li>
+              </ul>
+              <ul id="inicio" style="color: rgb(0, 0, 0);">
+                <li style="background: rgb(143, 236, 147);">
+                  <img src="papeleria/oficina.jpg" alt="Producto 1">
+                  
+                  <p>En esta seccion encontraras todo lo que necesitas para tu oficina o trabajo.</p>
+                  <a href="productos.html" class="boton">Comprar</a>
+                </li>
+                <li style="background: rgb(143, 236, 147);">
+                  <img src="papeleria/decoracion.jpg" alt="Producto 2">
+                
+                  <p>Para decoracion de todo tipo de fiestas, solo debes ingresar a esta interesante sección.</p>
+                  <a href="productos.html" class="boton">Comprar</a>
+                </li>
+                <li style="background: rgb(143, 236, 147);">
+                  <img src="papeleria/arte.jpg" alt="Producto 3">
+                  
+                  <p>Para aquellos artistas que no encuentran sus materiales, consiguelos en esta seccion.</p>
+                  <a href="productos.html" class="boton">Comprar</a>
+                </li>
+              </ul>
+            </section>
+          </main>
+
+
+
+
+
+<br><br><br><br><br>
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-white text-muted">
+<!-- Section: Social media -->
+<section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+  <!-- Left -->
+  <div class="me-5 d-none d-lg-block">
+    <span>Conéctate con nosotros en las redes sociales:</span>
+  </div>
+  <!-- Left -->
+
+  <!-- Right -->
+  <div>
+    <a href="" class="me-4 link-secondary">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="" class="me-4 link-secondary">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="" class="me-4 link-secondary">
+      <i class="fab fa-google"></i>
+    </a>
+    <a href="" class="me-4 link-secondary">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="" class="me-4 link-secondary">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="" class="me-4 link-secondary">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+  <!-- Right -->
+</section>
+<!-- Section: Social media -->
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3 text-secondary"></i>Papeleria Udenar
+          </h6>
+          <p>
+            En esta página publicitaria podrás encontrar todo lo relacionado 
+            con papelería y decoración para fiestas, Jugueteria, promociones, 
+            combos y muchas cosas mas. 
+
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            PRODUCTOS Y SERVICIOS
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Papeleria</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Libreria</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Decoración</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Jugueteria</a>
+          </p>
+        </div>
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+
+
+    <!-- Grid column -->
+    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+      <!-- Links -->
+      <h6 class="text-uppercase fw-bold mb-4">
+        DIRECCION TIENDA FISICA
+      </h6>
+      <p>
+        <a href="#!" class="text-reset">Cra 6 # 194</a>
+      </p>
+      <p>
+        <a href="#!" class="text-reset">Barrio la floresta</a>
+      </p>
+      <p>
+        <a href="#!" class="text-reset">Frente a la Universidad de Nariño</a>
+      </p>
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+      <!-- Links -->
+      <h6 class="text-uppercase fw-bold mb-4">CONTACTANOS</h6>
+      <p><i class="fas fa-home me-3 text-secondary"></i> Cra 6 # 194</p>
+      <p>
+        <i class="fas fa-envelope me-3 text-secondary"></i>
+        papeleriaudenar@gmail.com
+      </p>
+      <p><i class="fas fa-phone me-3 text-secondary"></i> + 57 313 646 5306</p>
+      <p><i class="fas fa-print me-3 text-secondary"></i> + 57 313 646 5306</p>
+    </div>
+    <!-- Grid column -->
+  </div>
+  <!-- Grid row -->
+</div>
+</section>
+<!-- Section: Links  -->
+
+<!-- Copyright -->
+<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+© 2023 Copyright:
+<a class="text-reset fw-bold" href="https://papeleriaudenar.com/">MDBootstrap.com</a>
+</div>
+<!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+  </body>
+</html>

@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../../Documents/Nueva carpeta"
+		},
+		{
+			"path": "../Taller 02 Formulario"
+		},
+		{
+			"path": "../../Pictures/TRAMITE EN LINEA"
+		},
+		{
+			"path": "../../Documents/pagina papeleria"
+		},
+		{
+			"path": "../UDENAR/seminario/papeleriaudenar"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "clase 4"
+	}
+}
